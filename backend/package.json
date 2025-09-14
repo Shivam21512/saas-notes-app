@@ -2,11 +2,11 @@
   "name": "saas-notes-backend",
   "version": "1.0.0",
   "main": "src/server.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    "seed": "node src/utils/seedData.js"
-  },
+ "scripts": {
+  "dev": "nodemon src/server.js",
+  "seed": "node src/utils/seedData.js"
+}
+,
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
